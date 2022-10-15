@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module select20_6(
+module select19_5(
     input clk,
     input wire [7:0] pix1,
     input wire [7:0] pix2,
@@ -78,7 +78,6 @@ assign pix[15] = pix17;
 assign pix[16] = pix18;
 assign pix[17] = pix19;
 assign pix[18] = pix20;
-//assign pix[19] = pix20;
 
 genvar i,j;
 generate

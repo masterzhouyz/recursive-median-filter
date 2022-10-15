@@ -56,11 +56,6 @@ reg [7:0] Mid3;
 reg [7:0] Mid4;
 reg [7:0] Mid5;
 reg [7:0] mid_reg;
-//reg [7:0] pix21_reg[0:1];
-//reg [7:0] pix22_reg[0:1];
-//reg [7:0] pix23_reg[0:1];
-//reg [7:0] pix24_reg[0:1];
-//reg [7:0] pix25_reg[0:1];
 
 wire [7:0] mid1;
 wire [7:0] mid2;
@@ -78,21 +73,7 @@ begin
     mid_reg <= mid_select;
 end
 
-//always@(posedge clk)
-//begin
-//    pix21_reg[0] <= pix21;
-//    pix21_reg[1] <= pix21_reg[0];
-//    pix22_reg[0] <= pix22;
-//    pix22_reg[1] <= pix22_reg[0];
-//    pix23_reg[0] <= pix23;
-//    pix23_reg[1] <= pix23_reg[0];
-//    pix24_reg[0] <= pix24;
-//    pix24_reg[1] <= pix24_reg[0];
-//    pix25_reg[0] <= pix25;
-//    pix25_reg[1] <= pix25_reg[0];
-//end
-
-select20_6 m1(
+select19_5 m1(
     .clk(clk),
     .pix1(pix6),
     .pix2(pix7),
