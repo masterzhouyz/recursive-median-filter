@@ -1,5 +1,5 @@
 # Introduction
-Recursive median filter Verilog build library. It includes two window sizes of 3×3 and 5×5. The hardware platform used in this project is Xilinx ynq UltraScale+ xczu9eg-ffvb1156-2-e.
+Recursive median filter Verilog build library. It includes two window sizes of 3×3 and 5×5. The hardware platform used in this project is Xilinx Zynq UltraScale+ xczu9eg-ffvb1156-2-e.
 # Modules
 ## 3×3 Window size
 * `top.v` -- 3×3 window top module.
